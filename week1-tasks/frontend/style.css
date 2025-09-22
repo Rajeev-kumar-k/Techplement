@@ -1,0 +1,34 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#quote-content {
+  font-size: 1.5em;
+  margin: 20px 0;
+}
+
+#quote-author {
+  font-style: italic;
+  color: gray;
+}
+
+.search input {
+  padding: 5px;
+  width: 60%;
+}
+
+.search button {
+  padding: 5px 10px;
+}

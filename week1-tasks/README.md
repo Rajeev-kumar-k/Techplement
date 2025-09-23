@@ -52,49 +52,49 @@ Techplement/
 ```bash
 git clone https://github.com/Rajeev-kumar-k/Techplement.git
 cd Techplement/week1-tasks
-2️⃣ Setup Backend
-bash
-Copy code
+```
+### 2️⃣ Setup Backend
+
 cd backend
 npm install
-Create a MySQL database:
 
-sql
-Copy code
+**Create a MySQL database:**
+
+
 CREATE DATABASE quotesdb;
-Inside quotesdb, create the quotes table:
 
-sql
-Copy code
+
+**Inside quotesdb, create the quotes table:**
+
+
 CREATE TABLE quotes (
   id INT AUTO_INCREMENT PRIMARY KEY,
   content TEXT NOT NULL,
   author VARCHAR(255) NOT NULL
 );
-Insert sample quotes:
 
-sql
-Copy code
+
+**Insert sample quotes:**
+
 INSERT INTO quotes (content, author) VALUES
 ('In the middle of difficulty lies opportunity.', 'Albert Einstein'),
 ('The only limit to our realization of tomorrow is our doubts of today.', 'Franklin D. Roosevelt');
-Create a .env file inside backend/:
 
-env
-Copy code
+**Create a .env file inside backend/:**
+
 DB_HOST=localhost
 DB_USER=root
 DB_PASSWORD=yourpassword
 DB_NAME=quotesdb
 PORT=5000
-Start the backend:
 
-bash
-Copy code
+
+**Start the backend:**
+
 npm start
 Your backend runs at: http://localhost:5000
 
-3️⃣ Setup Frontend
+### 3️⃣ Setup Frontend
 Open frontend/index.html in a browser (or use Live Server in VS Code).
 
 The app will connect to the backend and display quotes.

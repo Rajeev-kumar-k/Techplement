@@ -32,17 +32,18 @@ Built as part of **Techplement Internship - Week 1 Task**.
 
 ##  Project Structure
 Techplement/
-│── week1-tasks/
-│ ├── frontend/ # HTML, CSS, JS files
-│ │ ├── index.html
-│ │ ├── style.css
-│ │ └── script.js
-│ │
-│ └── backend/ # Node.js + Express + MySQL backend
-│ ├── server.js
-│ ├── db.js
-│ ├── package.json
-│ └── .env
+│
+└── week1-tasks/
+├── frontend/ # HTML, CSS, JS files
+│ ├── index.html
+│ ├── style.css
+│ └── script.js
+│
+└── backend/ # Node.js + Express + MySQL backend
+├── server.js
+├── db.js
+├── package.json
+└── .env
 
 ---
 
@@ -100,3 +101,5 @@ Your backend runs at: http://localhost:5000
 Open frontend/index.html in a browser (or use Live Server in VS Code).
 
 The app will connect to the backend and display quotes.
+
+---

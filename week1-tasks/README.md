@@ -54,44 +54,46 @@ git clone https://github.com/Rajeev-kumar-k/Techplement.git
 cd Techplement/week1-tasks
 ```
 ### 2️⃣ Setup Backend
-```
+```bash
 cd backend
 npm install
 ```
 **Create a MySQL database:**
 
-
+```sql
 CREATE DATABASE quotesdb;
-
+```
 
 **Inside quotesdb, create the quotes table:**
 
-
+```sql
 CREATE TABLE quotes (
   id INT AUTO_INCREMENT PRIMARY KEY,
   content TEXT NOT NULL,
   author VARCHAR(255) NOT NULL
 );
-
+```
 
 **Insert sample quotes:**
 
+```sql
 INSERT INTO quotes (content, author) VALUES
 ('In the middle of difficulty lies opportunity.', 'Albert Einstein'),
 ('The only limit to our realization of tomorrow is our doubts of today.', 'Franklin D. Roosevelt');
-
+```
 **Create a .env file inside backend/:**
-
+```env
 DB_HOST=localhost
 DB_USER=root
 DB_PASSWORD=yourpassword
 DB_NAME=quotesdb
 PORT=5000
-
+```
 
 **Start the backend:**
-
+```bash
 npm start
+```
 Your backend runs at: http://localhost:5000
 
 ### 3️⃣ Setup Frontend

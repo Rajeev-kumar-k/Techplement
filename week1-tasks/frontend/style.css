@@ -1,4 +1,4 @@
-/* Fonts and body */
+
 body {
   font-family: 'Roboto', sans-serif;
   text-align: center;
@@ -7,7 +7,7 @@ body {
   color: #fff;
 }
 
-/* Main container */
+
 .container {
   max-width: 600px;
   margin: auto;
@@ -17,26 +17,26 @@ body {
   box-shadow: 0 0 20px rgba(0,0,0,0.3);
 }
 
-/* Heading */
+
 h1 {
   margin-bottom: 25px;
 }
 
-/* Quote section */
+
 #quote-section {
   margin: 20px 0;
   font-size: 1.3em;
   transition: opacity 0.5s ease;
 }
 
-/* Quote author */
+
 #quote-author {
   font-style: italic;
   margin-top: 10px;
   color: #ffd700;
 }
 
-/* Buttons */
+
 button {
   background-color: #ff9800;
   border: none;
@@ -54,7 +54,7 @@ button:hover {
   transform: scale(1.05);
 }
 
-/* Search input */
+
 .search input {
   padding: 7px;
   width: 60%;
@@ -62,13 +62,13 @@ button:hover {
   border: none;
 }
 
-/* Search results */
+
 #search-results {
   margin-top: 20px;
   text-align: left;
 }
 
-/* Individual result styling */
+
 #search-results p {
   background-color: rgba(255,255,255,0.2);
   padding: 10px;
@@ -77,7 +77,7 @@ button:hover {
   font-size: 1em;
 }
 
-/* Responsive design */
+
 @media (max-width: 600px) {
   .container {
     padding: 20px;

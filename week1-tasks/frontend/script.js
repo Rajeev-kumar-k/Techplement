@@ -7,18 +7,18 @@ const searchResults = document.getElementById('search-results');
 
 const API_BASE = 'http://localhost:5000/api/quotes';
 
-// Fade-out effect
+
 function fadeOut(element) {
   element.style.opacity = 0;
   return new Promise(resolve => setTimeout(resolve, 200));
 }
 
-// Fade-in effect
+
 function fadeIn(element) {
   element.style.opacity = 1;
 }
 
-// Fetch random quote
+
 async function getRandomQuote() {
   await fadeOut(quoteContent);
   await fadeOut(quoteAuthor);
@@ -40,7 +40,7 @@ async function getRandomQuote() {
   fadeIn(quoteAuthor);
 }
 
-// Search by author
+
 async function searchByAuthor() {
   const author = authorInput.value.trim();
   if (!author) return;
@@ -66,9 +66,9 @@ async function searchByAuthor() {
   }
 }
 
-// Event listeners
+
 randomBtn.addEventListener('click', getRandomQuote);
 searchBtn.addEventListener('click', searchByAuthor);
 
-// Load a random quote on page load
+
 getRandomQuote();

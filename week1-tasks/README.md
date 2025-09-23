@@ -31,6 +31,7 @@ Built as part of **Techplement Internship - Week 1 Task**.
 ---
 
 ##  Project Structure
+```markdown
 Techplement/
 │
 └── week1-tasks/
@@ -44,7 +45,7 @@ Techplement/
 ├── db.js
 ├── package.json
 └── .env
-
+```
 ---
 
 ## Setup Instructions

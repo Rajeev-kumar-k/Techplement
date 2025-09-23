@@ -54,10 +54,10 @@ git clone https://github.com/Rajeev-kumar-k/Techplement.git
 cd Techplement/week1-tasks
 ```
 ### 2️⃣ Setup Backend
-
+```
 cd backend
 npm install
-
+```
 **Create a MySQL database:**
 
 
